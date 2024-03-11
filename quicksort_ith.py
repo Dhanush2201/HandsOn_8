@@ -23,9 +23,9 @@ def quickSelect(ar, l, h, i):
 
     return ar[l]
 
-ar = [12, 5, 7, 3, 19, 26]
+ar = [112, 45, 47, 233, 119, 226, 40, 22]
 n = len(ar)
-i = 2
+i = 4
 
 result = quickSelect(ar, 0, n - 1, i)
 print(f"The {i}th order statistic is: {result}")
